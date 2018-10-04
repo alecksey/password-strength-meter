@@ -258,7 +258,7 @@
   }
 
   // Bind to jquery
-  $.fn.password = function(options) {
+  $.fn.passwordChecker = function(options) {
     return this.each(function() {
       new Password($(this), options);
     });
