@@ -198,7 +198,7 @@
         $insert.append($text);
       }
 
-      $object.after($insert);
+      $object.parent().after($insert);
 
       $object.keyup(function() {
         var username = options.username || '';
